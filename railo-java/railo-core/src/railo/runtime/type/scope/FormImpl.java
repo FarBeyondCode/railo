@@ -170,7 +170,6 @@ public final class FormImpl extends ScopeSupport implements Form,ScriptProtected
 			    }       
 			}
 			
-			
 			raw= list.toArray(new URLItem[list.size()]);
 			fillDecoded(raw,encoding,scriptProteced,pc.getApplicationContext().getSameFieldAsArray(SCOPE_FORM));
 		} 
